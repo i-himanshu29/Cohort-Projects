@@ -1,0 +1,120 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+.container {
+  /* Add your styles here */
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h1 {
+  /* Add your styles here */
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ gap:30px;
+ margin-top: 20px;
+
+}
+.pricing-heading{
+  /* Add your styles here */
+  font:medium;
+
+}
+
+
+.pricing-card {
+  /* Add your styles here */
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ margin-top: 10px;
+ padding: 20px;
+  height: 400px;
+  width:350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+  
+  border:2px solid rgb(211, 103, 26);
+  scale: auto;
+}
+
+.pricing-card.popular {
+  /* Add your styles here */
+  height:500px;
+  width:350px;
+}
+
+.popular-badge {
+  /* Add your styles here */
+  margin-top: -35px ;
+  font-size: larger;
+  border-radius: 20px;
+  background-color: rgb(211, 103, 26);
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.price {
+  /* Add your styles here */
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+.period {
+  /* Add your styles here */
+  margin-bottom: 15px;
+}
+
+.features {
+  /* Add your styles here */
+  /* background-color: aqua; */
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.features li {
+  /* Add your styles here */
+  justify-content: center;
+  gap: 2px;
+}
+
+.subscribe-btn {
+  /* Add your styles here */
+  border-radius: 20px;
+  border: 0px;
+  padding:10px;
+  background-color:rgb(211, 103, 26);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.subscribe-btn:hover {
+  /* Add your styles here */
+  background-color: beige;
+}
