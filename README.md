@@ -22,10 +22,14 @@ The repository is organized into different phases, each containing a folder with
 
 
 ### HTML
-- 00_TimeTable Table in HTML
-- 01_SignUp Form 
-- 02_Audio and Video embedded
+- 00_TimeTable Table in HTML Project
+- 01_SignUp Form Project
+- 02_Audio and Video embedded Project
 
+### CSS
+- 03_Card Design Project
+- 04_Pricing Table Project
+- 05_Landing Page Project
 
 ## 🌱 How to Use
 1. Clone this repository to your local machine:
