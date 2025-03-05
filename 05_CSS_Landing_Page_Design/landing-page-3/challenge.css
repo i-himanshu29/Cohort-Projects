@@ -1,0 +1,178 @@
+Challenge CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.header {
+  /* Define header styles here */
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  margin:2px 40px;
+}
+
+.logo {
+  /* Define logo styles here */
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color:rgb(156, 79, 51);
+  
+}
+
+.logo img {
+  /* Define image styles within the logo here */
+  border-radius:35px;
+  border:4px solid rgb(156, 79, 51);
+  margin:10px;
+  color:rgb(94, 43, 24);
+}
+
+.nav-menu a {
+  /* Define navigation link styles here */
+  
+  text-decoration: none;
+  font-size:medium;
+  margin:10px;
+  padding: 2px;
+  justify-items:stretch;
+  color: rgb(105, 35, 10);
+  
+}
+
+.nav-menu a:hover {
+  /* Define hover styles for navigation links here */
+  color: rgb(171, 110, 88);
+}
+
+.hero {
+  /* Define hero section styles here */
+  /* background-image: url(./assets/chaipatti.png); */
+  object-fit:contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  /* background-position: center; */
+  position: relative;
+  width: 100vw;
+  z-index: 0;
+}
+ /* I Stuck that point */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/chaipatti.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+.hero-text{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.hero-text h1 {
+  /* Define styles for h1 in hero-text here */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin:10px 2px;
+}
+
+.hero-text p {
+  /* Define styles for paragraph in hero-text here */
+  color:white;
+  margin:10px 2px;
+}
+
+.shop-button {
+  /* Define shop button styles here */
+  margin:8px 10px;
+  padding:12px 35px;
+  background-color: rgb(133, 64, 39);
+  border-radius:50px;
+  cursor: pointer;
+  font-size: medium;
+  color: white;
+  border-style: none;
+}
+
+.shop-button:hover {
+  /* Define hover styles for shop button here */
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+.tea-collection {
+  /* Define tea collection section styles here */
+  display:grid;
+  align-items: center;
+  
+}
+
+.tea-collection h2 {
+  /* Define styles for h2 in tea collection here */
+  font-size:xx-large;
+  font-weight: bolder;
+  margin: 20px 30px;
+  text-align: center;
+  color: rgb(123, 46, 19);
+}
+
+.tea-cards {
+  /* Define tea cards container styles here */
+  display: grid;
+  grid-template-rows: 45% 45%;
+  grid-template-columns: 30% 30% 30%;
+  align-items: center;
+  justify-content: center;
+  margin:10px 30px;
+  padding:2%;
+
+}
+
+.tea-card {
+  /* Define styles for each tea card here */
+  border-radius: 5px;
+  padding:5%;
+  margin:20px 80px;
+  box-shadow:10px;
+  text-align: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.tea-card h3 {
+  /* Define styles for tea card headings here */
+  color: rgb(123, 46, 19);
+}
+
+.tea-card p {
+  /* Define styles for tea card paragraph text here */
+  color:grey;
+  text-wrap: wrap;
+}
