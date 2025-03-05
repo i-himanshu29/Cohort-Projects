@@ -52,6 +52,7 @@ body {
 
 .nav-links a:hover {
   /* Add hover styles for nav links */
+  color:orange;
 }
 
 /* Hero section styles */
@@ -79,6 +80,7 @@ body {
 
 .hero-content p {
   /* Add styles for hero paragraph */
+  font-weight: 500;
 }
 
 .cta-button {
