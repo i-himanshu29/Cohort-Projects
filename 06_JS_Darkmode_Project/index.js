@@ -1,4 +1,4 @@
-// Toggle functionality
+// Light and Dark mode Toggle functionality
 
 function changeBackground(color) {
     document.body.style.backgroundColor = color;
