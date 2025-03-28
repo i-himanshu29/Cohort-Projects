@@ -31,6 +31,12 @@ The repository is organized into different phases, each containing a folder with
 - 04_Pricing Table Project
 - 05_Landing Page Project
 
+### JS
+- 06_JS_Darkmode_Project
+- 07_JS_Todo_Project
+- 08_JS_DOM_Calculator_Project
+- 09_JS_DOM_BMI_Index_Project
+
 ## 🌱 How to Use
 1. Clone this repository to your local machine:
    
