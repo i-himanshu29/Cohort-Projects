@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d2d8dd;
+  }
+  
+  h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color:rgb(226, 236, 233);
+  }
+  
+  .preview-card {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-weight: 800;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  .profile-info strong {
+    color: #34495e;
+  }
