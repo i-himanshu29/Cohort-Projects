@@ -36,6 +36,16 @@ The repository is organized into different phases, each containing a folder with
 - 07_JS_Todo_Project
 - 08_JS_DOM_Calculator_Project
 - 09_JS_DOM_BMI_Index_Project
+- 10_JS_DOM_Review_Collector_Project
+- 11_JS_DOM_Bulb_on_off_Project
+- 12_Js_DOM_Change_text_color_project
+- 13_JS_DOm_Real_time_Form_Input_Display_project
+- 14_JS_DOM_Task_Management_Project
+- 15_JS_DOM_Image_Carousel_Project
+- 16_JS_DOM_Enhance_Clock_project
+- 17_JS_DOM_Accordian_Project
+- 18_JS_DOM_Simple_Shopping_Cart_Project
+- 19_JS_DOM_Sliding_Menu_Project
 
 ## 🌱 How to Use
 1. Clone this repository to your local machine:
