@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #1a1a40, #2e2e61, #ca47a9, #3ea6e3);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background-color: #2e2e61;
+    width: 30%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(72, 239, 128, 0.3) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(72, 239, 128, 0.5) 0px 10px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #48ef80;
+    text-shadow: 0 2px 5px rgba(72, 239, 128, 0.5);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+#inputText {
+    background-color: #ffffff;
+    color: #1a1a40;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    outline: none;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s;
+}
+
+#inputText:focus {
+    box-shadow: 0 0 10px rgba(72, 239, 128, 0.8);
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #4caf50;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#resultMessage {
+    font-size: 1.2rem;
+    color: #48ef80;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
